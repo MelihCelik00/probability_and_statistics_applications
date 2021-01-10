@@ -20,7 +20,7 @@ cdf_of_x = (x_list**5)/32
 
 # Let's define pdf and cdf of y by using the calculated function
 # find pdf of y
-pdf_of_y = 5/64 * (np.sqrt(y_list-9)**3/2)
+pdf_of_y = 5/64 * ((y_list-9)**(3/2))
 
 # find cdf of y
 cdf_of_y = (np.sqrt(y_list-9)**(5))/32
